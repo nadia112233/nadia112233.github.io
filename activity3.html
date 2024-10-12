@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Living Things</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Dragula CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.css">
+
+<!-- Dragula JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Navigation Bar (Full Width) -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="activity1.html">Activity 1</a></li>
+      <li><a href="activity2.html">Activity 2</a></li>
+      <li><a href="activity3.html">Activity 3</a></li>
+      <li><a href="attributions.html">Attributions</a></li>
+      <li><a href="Syllabus.html">Syllabus</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section (Full Width) -->
+  <header class="activity_header">
+    <h1>Activity 3</h1>
+  </header>
+
+  <!-- Container starts here -->
+  <div class="container">
+
+    <h2>Concept Map</h2>
+    <p class="main-paragraph"> When you click the link below you will be taken to a page which provides you with a half completed concept map. This concept map summarises the knowledge you have built so far on living and non-living things. 
+        Drag the green labels to their correct places to complete the mindmap. Think about your answers carefully! Once you are done, come back here and click on the button to check your answer. <span class="blue-text">(ST1-2DP-T: Students apply higher order thinking skills to design a mindmap summarising their knowledge)</span></p>
+    <p class="main-paragraph">Click here to access <a href="https://docs.google.com/drawings/d/1aug1R1t8_YNVpuHodSdka0h-mOndsl11KwwIteKFGIs/edit?usp=sharing" target="_blank">the concept map activity.</a></p>
+
+    <button id="revealButton">Click here to see the suggested answer</button>
+    <div id="imageContainer">
+        <img id="hiddenImage" src="images/answer_image.png" alt="Suggested Answer">
+    </div>
+        
+    <h2>Scenario Based Quiz</h2>
+    <p class="main-paragraph"> The below quiz will assess your understanding of living things further. You are given five scenarios
+        with each one describing the features of either a living or non-living thing without naming it. Your job is to figure out whether
+        the thing described in the scenario is living or non-living. Have a go below! <span class="blue-text">(ST1-1WS-S: Students engage in a high order process of evaluating the evidence provided to come at a scientific conclusion)</span>
+    </p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqGOLxvzlXAAwxTNe2FfEOx2YFVvYMiQtJVpPtB4lu-aIOBw/viewform?embedded=true" width="1200" height="1606" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <div class="button-container">
+        <button id="previousButton" onclick="location.href='activity2.html'">
+            <span class="arrow-left">←</span> Back to Activity 2
+        </button>
+        <button id="nextButton" onclick="location.href='index.html'">
+            Start Again! <span class="arrow-right">→</span>
+        </button>
+        </div>
+
+  </div> <!-- End of container -->
+
+  <!-- JavaScript -->
+  <script src="script3.js"></script>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Digital Learning Resource by Nadia Faisal. Produced for EMS406 Assessment 3</p>
+  </footer>  
+</body>
+</html>

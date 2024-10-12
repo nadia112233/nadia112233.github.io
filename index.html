@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Living Things</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar (Full Width) -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="activity1.html">Activity 1</a></li>
+      <li><a href="activity2.html">Activity 2</a></li>
+      <li><a href="activity3.html">Activity 3</a></li>
+      <li><a href="attributions.html">Attributions</a></li>
+      <li><a href="Syllabus.html">Syllabus</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section (Full Width) -->
+  <header>
+    <h1>Living Things!</h1>
+  </header>
+
+  <!-- Container starts here -->
+  <div class="container">
+
+    <p class="main-paragraph">
+    Welcome to the Living Things digital learning resource!</p>
+    <p class="main-paragraph">By going through the activities in this website,
+        you will learn more about what living things are and what features separate them from non-living things.
+    First you will explore your own ideas about what a living thing is and have a go at classifying some things as living or non-living. 
+    Then you will learn about the unique features of living things and play lots of fun games to test your knowledge.</p>
+    <p class="main-paragraph"> By completing this learning resource, you will learn:</p>
+    <ul class="main-paragraph">
+        <li>The external features of lots of living things</li>
+        <li>How to identify plants and animals using thier external features</li>
+    </ul>
+    
+
+
+    <!-- Main Content -->
+    <section class="content">
+      <div class="box" id="studentsBox">
+        <img src="images/students.png" alt="Students">
+        <p>If you are a student: click here for instructions and information</p>
+      </div>
+      <div class="box" id="teachersBox">
+        <img src="images/teachers.png" alt="Teachers">
+        <p>If you are a teacher: click here for instructions and information</p>
+      </div>
+    </section>
+
+    <!-- Continue Button -->
+    <button id="continueButton" onclick="location.href='activity1.html'">Click here to continue to the lessons</button>
+
+
+  </div> <!-- End of container -->
+
+  <!-- Modals -->
+  <div id="studentsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeStudents">&times;</span>
+      <p>Welcome Students,</p>
+      <p>This website contains many activities for you to learn more about living things. 
+        Make sure you follow all the instructions provided and complete the given activities. 
+        There are green buttons at the bottom of every page to help you navigate back and forth from each activity.
+        Do not worry about the <span class= "blue-text">text in blue</span> as this is for teachers.
+        Give each activity your best go and make sure you have fun!
+      </p>
+    </div>
+  </div>
+
+  <div id="teachersModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeTeachers">&times;</span>
+      <p>Welcome Teachers, </p>
+        <p>This learning resource contains activities to develop student understanding of living things in accordance with the Stage 1 Living World outcome
+        <span class="blue-text">ST1-4LW-S</span> as the Knowledge and Understanding Outcome. Each activity also endeavours to meet Working Scientifically and Design and Production outcomes.
+        You may find more detailed information about the syllabus outcomes focused on in the "Syllabus" page linked in the navigation bar at the top.
+        The navigation bar will allow you to quickly check each activity as needed instead of working sequentially through the activities as students would. 
+        All <span class="blue-text">text in blue</span> provides information on syllabus outcomes met, teaching pedagogies, 5 E's adherence, Alternative Conceptions, relevant teacher information
+        and occasionally citations to academic sources. 
+      </p>
+    </div>
+  </div>
+  
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Digital Learning Resource by Nadia Faisal. Produced for EMS406 Assessment 3</p>
+  </footer>  
+</body>
+</html>
+
